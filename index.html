@@ -31,16 +31,20 @@
                     <h2 class="style-header">Sign up for the course and get free 7 days</h2>
                     <form class="forms" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
                         <div class="box-form">
-                            <input type="text" name="username_1" placeholder="First Name" minlength="2" aria-label="Enter your first name" required>
+                            <input class="input-username" type="text" name="username_1" placeholder="First Name" minlength="2" aria-label="Enter your first name" required>
+                            <span class="invalid-text">First Name cannot be empty</span>
                         </div>
                         <div class="box-form">
-                            <input type="text" name="username_2" placeholder="Last Name" minlength="2" aria-label="Enter your last name" required>
+                            <input class="input-username" type="text" name="username_2" placeholder="Last Name" minlength="2" aria-label="Enter your last name" required>
+                            <span class="invalid-text">Last Name cannot be empty</span>
                         </div>
                         <div class="box-form">
-                            <input type="email" name="user_email" placeholder="Email Address" minlength="2" aria-label="Enter your email address" required>
+                            <input class="input-username" type="email" name="user_email" placeholder="Email Address" minlength="2" aria-label="Enter your email address" required>
+                            <span class="invalid-text">Looks like this is not an email</span>
                         </div>
                         <div class="box-form">
-                            <input type="password" name="user_password" placeholder="Password" minlength="4" aria-label="Enter your password" required>
+                            <input class="input-username" type="password" name="user_password" placeholder="Password" minlength="4" aria-label="Enter your password" required>
+                            <span class="invalid-text">Password cannot be empty</span>
                         </div>
                         <button type="submit" class="btn">Claim your free trial</button>
                         <p class="main-paragrph">By clicking the button, you are agreeing to our <a href="#" class="main-span">Terms and Services</a></p>
